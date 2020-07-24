@@ -183,7 +183,7 @@ install(TARGETS px4_realsense_bridge px4_realsense_bridge_node
 )
 
 ## Mark cpp header files for installation
-install(DIRECTORY include/${PROJECT_NAME}/
+install(DIRECTORY include/PX4_realsense_bridge/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
 
